@@ -1,0 +1,8 @@
+{
+  "name": "bamboo-lambda-package",
+  "description": "aws lambda package for bamboo-server",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::183676044985:role/bamboo-lambda-package_lambda_function",
+  "environment": {}
+}

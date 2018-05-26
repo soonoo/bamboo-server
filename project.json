@@ -4,5 +4,9 @@
   "memory": 128,
   "timeout": 5,
   "role": "arn:aws:iam::183676044985:role/bamboo-lambda-package_lambda_function",
-  "environment": {}
+  "environment": {},
+  "runtime": "nodejs8.10",
+  "hooks": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js"
+  }
 }

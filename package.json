@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "node-fetch": "^2.1.2",
+    "webpack": "^4.9.1",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.4"
+  }
+}
